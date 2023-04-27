@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+#form__item{
+    width: 400px;
+    height: 430px;
+    background-color: rgba(0, 60, 255, 0.747);
+    padding: 50px 0;
+    color: white;
+   
+}
+.center{
+    text-align: center;
+}
+.form-control{
+    border-radius: 8px;
+}
+input{
+    height: 30px;
+    margin-top: 10px;
+}
+button{
+    height: 50px;
+    transition: .3s linear;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.surname{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.addFile{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.button{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+#left__item{
+    width: 400px;
+    height: 430px;
+    background-color: rgba(0, 60, 255, 0.466);
+    padding: 50px 15px;
+    color: white;
+}
+#left__item h1{
+    text-align: center;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+li{
+    list-style: none;
+}
